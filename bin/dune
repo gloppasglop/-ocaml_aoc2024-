@@ -1,0 +1,14 @@
+(executable
+ (public_name ocaml_aoc2024)
+ (name main)
+ (libraries ocaml_aoc2024))
+
+(executable
+ (public_name day1)
+ (name day1)
+ (libraries base stdio ocaml_aoc2024))
+
+(executable
+ (public_name day2)
+ (name day2)
+ (libraries base stdio ocaml_aoc2024))
